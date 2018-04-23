@@ -1,0 +1,8 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://rm-wz9654n3973xdmipago.mysql.rds.aliyuncs.com:3306/mj?useSSL=false
+    username: root
+    password: King540423387
+server:
+  port: 9090
