@@ -5,6 +5,12 @@ import java.text.DecimalFormat;
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ * @description
+ * @author KyleWang
+ * @version 1.0
+ * @date 2018年04月24日
+ */
 public class DiskCollector {
 
 

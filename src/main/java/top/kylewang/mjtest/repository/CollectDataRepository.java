@@ -1,11 +1,14 @@
 package top.kylewang.mjtest.repository;
 
 import org.springframework.data.jpa.repository.JpaRepository;
-
-import org.springframework.stereotype.Repository;
 import top.kylewang.mjtest.bean.CollectData;
 
-@Repository
+/**
+ * @description
+ * @author KyleWang
+ * @version 1.0
+ * @date 2018年04月24日
+ */
 public interface CollectDataRepository extends JpaRepository<CollectData, Integer> {
 
 }

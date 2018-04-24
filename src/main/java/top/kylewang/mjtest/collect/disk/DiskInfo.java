@@ -1,5 +1,11 @@
 package top.kylewang.mjtest.collect.disk;
 
+/**
+ * @description
+ * @author KyleWang
+ * @version 1.0
+ * @date 2018年04月24日
+ */
 public class DiskInfo {
 
 	/** 磁盘分区名 */

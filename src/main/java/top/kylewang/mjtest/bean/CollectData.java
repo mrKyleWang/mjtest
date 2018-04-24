@@ -2,6 +2,12 @@ package top.kylewang.mjtest.bean;
 
 import javax.persistence.*;
 
+/**
+ * @description
+ * @author KyleWang
+ * @version 1.0
+ * @date 2018年04月24日
+ */
 @Entity
 @Table(name = "mjdata")
 public class CollectData {
