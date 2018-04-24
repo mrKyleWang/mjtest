@@ -1,12 +1,12 @@
 spring:
   datasource:
     driver-class-name: com.mysql.jdbc.Driver
-    url: jdbc:mysql://rm-wz9654n3973xdmipago.mysql.rds.aliyuncs.com:3306/mj?useSSL=false
+    url: jdbc:mysql://rm-wz9654n3973xdmipago.mysql.rds.aliyuncs.com:3306/mj?useSSL=false&characterEncoding=utf-8
     username: root
     password: King540423387
   jpa:
     generate-ddl: true
-    show-sql: true
     hibernate.ddl-auto: update
+    database-platform: org.hibernate.dialect.MySQL5Dialect
 server:
   port: 9090
