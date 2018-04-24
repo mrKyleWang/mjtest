@@ -4,5 +4,9 @@ spring:
     url: jdbc:mysql://rm-wz9654n3973xdmipago.mysql.rds.aliyuncs.com:3306/mj?useSSL=false
     username: root
     password: King540423387
+  jpa:
+    generate-ddl: true
+    show-sql: true
+    hibernate.ddl-auto: create
 server:
   port: 9090
