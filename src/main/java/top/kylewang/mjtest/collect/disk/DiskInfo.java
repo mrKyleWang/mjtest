@@ -21,10 +21,10 @@ public class DiskInfo {
 	private long totalSpace;
 
 	/** 磁盘使用率 */
-	private String useRatio;
+	private long useRatio;
 
 	/** 默认输出格式 */
-	private String unit;
+	private String unit = "M";
 
 	public String getDiskPath() {
 		return diskPath;
@@ -58,11 +58,11 @@ public class DiskInfo {
 		this.totalSpace = totalSpace;
 	}
 
-	public String getUseRatio() {
+	public long getUseRatio() {
 		return useRatio;
 	}
 
-	public void setUseRatio(String useRatio) {
+	public void setUseRatio(long useRatio) {
 		this.useRatio = useRatio;
 	}
 

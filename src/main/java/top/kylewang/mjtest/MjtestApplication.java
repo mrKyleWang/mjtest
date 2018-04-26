@@ -21,7 +21,6 @@ public class MjtestApplication {
 		SpringApplication.run(MjtestApplication.class, args);
 	}
 
-
 	@Bean
 	public TaskRunner taskRunner(){
 	    return new TaskRunner();
