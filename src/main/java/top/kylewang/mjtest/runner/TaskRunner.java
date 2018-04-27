@@ -32,9 +32,7 @@ public class TaskRunner implements ApplicationRunner {
 			CollectData collectData = new CollectData();
 			diskCollectService.collectDiskInfo(collectData);
 			cpuCollectService.collectCpuInfo(collectData);
-
 			collectDataRepository.save(collectData);
-
 			Thread.sleep(5000);
             
         }
